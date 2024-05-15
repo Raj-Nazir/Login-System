@@ -1,0 +1,18 @@
+nav .active {
+  background-color: burlywood;
+}
+
+.homeLink {
+  font-size: 50px;
+}
+.homeLink .home {
+  font-size: 50px;
+}
+
+.active {
+  color: yellow;
+}
+
+.navLink {
+  color: white;
+}
