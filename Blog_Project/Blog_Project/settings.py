@@ -26,9 +26,9 @@ SECRET_KEY = "django-insecure-&h040%9bjn1dn0bfj-eo7u^qt8+n)7(f@8j8@ekj60(0l^r%@p
 DEBUG = True
 
 EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER="raajnazir7320@gmail.com"
-EMAIL_HOST_PASSWORD="ntio vfnj sgvl dhki"
-EMAIL_PORT=587
+EMAIL_HOST_USER="example@gmail.com"
+EMAIL_HOST_PASSWORD="di"
+EMAIL_PORT=
 EMAIL_USE_TLS=True
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 
@@ -93,10 +93,10 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "account",
         "USER": "root",
-        "PASSWORD": "raj@123",
+        "PASSWORD": "23",
         # "HOST": "127.0.0.1",
         "HOST": "localhost",
-        "PORT": "3306",
+        "PORT": "",
     }
 }
 
